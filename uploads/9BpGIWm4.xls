@@ -1,0 +1,3210 @@
+<table border="1px" style="font-size:20px" "><tr bgcolor="#DFDFDF">
+                                <th>Student Id</th>
+                                <th>Student Name</th>
+                                <th>NIC</th>
+                                <th>Mobile</th>
+                                <th>Applied Date</th>
+                                <th>Course</th>
+                                <th>Counselar Name</th>
+                                <th>Upload Document</th>
+                                <th>Edit</th>
+
+                            </tr><tr>
+                            <td>student1</td>
+                            <td>Ridma Kanchana</td>
+                           
+                            <td>961771803v</td>
+                            <td>716309982</td>
+                            <td>2020-09-08</td>
+                            <td>Physical Science</td>
+                            <td>counselar</td>
+                            <td>
+                                                            <a href="downloads.php?ap_file_id=2">Download</a>
+                             
+                                                            </td>
+
+
+                            <td>
+                            <a href="#editapp2" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> 
+                                            <!-- Edit shedule -->
+<div class="modal fade" id="edituser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>2</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="editusers.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>15</b><br />
+" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">User Type</label>
+                            <select class="custom-select" name="user_type" id="">
+                                <option value="" selected="">Select one</option>
+                                <option value="administrator">Administrator</option>
+                                <option value="counselar">Counselar</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Full Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>28</b><br />
+" type="text" name="full_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">User Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>33</b><br />
+" type="text" name="user_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Password:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>38</b><br />
+" type="password" name="password">
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Delete shedule -->
+<div class="modal fade" id="deleteuser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>58</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Delete User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center" style="color: #000;"><br>
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>70</b><br>
+</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <a href="delete_user.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>75</b><br />
+" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Application Model -->
+<div class="modal fade" id="editapp2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Application</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?application=2" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Course interested</label>
+                                <select class="custom-select" name="cource" id="">
+                                    <option value="0" selected="">Select Cource</option>
+                                    <option value="Physical Science">Physical Science</option>
+                                    <option value="Biological Science">Biological Science</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Applied</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload Application</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Documentaton Model -->
+<div class="modal fade" id="editdoc2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Documentation</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?document=2" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    O/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    A/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    IELTS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    Service Later
+                                </label>
+                            </div>
+                            <br> <br>
+                            <div class="form-group">
+                                <label for="">Documents</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Remarks</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Offer Model -->
+<div class="modal fade" id="editoffer2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Offer</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?offer=2" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Offer Received Date</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Semester</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Date</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload File</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Enquery Model -->
+<div class="modal fade" id="editenquery2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Enquery Form</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?enquery=2" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">Course interested</label>
+                            <select class="custom-select" required="" value="Physical Science" name="cource" id="">
+                                <option selected="">Select Cource</option>
+                                <option value="Physical Science">Physical Science</option>
+                                <option value="Biological Science">Biological Science</option>
+                                <option value="Engineering">Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Name</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Surname:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">NIC:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">E-mail:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Telephone:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Mobile:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Address:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">City:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Date Of Birth:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <select class="custom-select" required="" value="Select Gender" name="gender" id="">
+                                <option selected="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>                                
+                            </td>
+
+
+                        </tr><tr>
+                            <td>student2</td>
+                            <td>Ashen Udithamal</td>
+                           
+                            <td>9567876533v</td>
+                            <td>765679234</td>
+                            <td>2020-09-04</td>
+                            <td>Engineering</td>
+                            <td>kanchana</td>
+                            <td>
+                                                            <a href="downloads.php?ap_file_id=3">Download</a>
+                             
+                                                            </td>
+
+
+                            <td>
+                            <a href="#editapp3" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> 
+                                            <!-- Edit shedule -->
+<div class="modal fade" id="edituser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>2</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="editusers.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>15</b><br />
+" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">User Type</label>
+                            <select class="custom-select" name="user_type" id="">
+                                <option value="" selected="">Select one</option>
+                                <option value="administrator">Administrator</option>
+                                <option value="counselar">Counselar</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Full Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>28</b><br />
+" type="text" name="full_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">User Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>33</b><br />
+" type="text" name="user_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Password:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>38</b><br />
+" type="password" name="password">
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Delete shedule -->
+<div class="modal fade" id="deleteuser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>58</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Delete User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center" style="color: #000;"><br>
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>70</b><br>
+</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <a href="delete_user.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>75</b><br />
+" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Application Model -->
+<div class="modal fade" id="editapp3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Application</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?application=3" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Course interested</label>
+                                <select class="custom-select" name="cource" id="">
+                                    <option value="0" selected="">Select Cource</option>
+                                    <option value="Physical Science">Physical Science</option>
+                                    <option value="Biological Science">Biological Science</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Applied</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload Application</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Documentaton Model -->
+<div class="modal fade" id="editdoc3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Documentation</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?document=3" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    O/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    A/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    IELTS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    Service Later
+                                </label>
+                            </div>
+                            <br> <br>
+                            <div class="form-group">
+                                <label for="">Documents</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Remarks</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Offer Model -->
+<div class="modal fade" id="editoffer3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Offer</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?offer=3" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Offer Received Date</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Semester</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Date</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload File</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Enquery Model -->
+<div class="modal fade" id="editenquery3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Enquery Form</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?enquery=3" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">Course interested</label>
+                            <select class="custom-select" required="" value="Engineering" name="cource" id="">
+                                <option selected="">Select Cource</option>
+                                <option value="Physical Science">Physical Science</option>
+                                <option value="Biological Science">Biological Science</option>
+                                <option value="Engineering">Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Name</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Surname:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">NIC:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">E-mail:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Telephone:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Mobile:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Address:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">City:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Date Of Birth:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <select class="custom-select" required="" value="Select Gender" name="gender" id="">
+                                <option selected="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>                                
+                            </td>
+
+
+                        </tr><tr>
+                            <td>student3</td>
+                            <td>Isuru Dulanjana</td>
+                           
+                            <td>965789876v</td>
+                            <td>765679234</td>
+                            <td>2020-09-04</td>
+                            <td>Physical Science</td>
+                            <td>counselar</td>
+                            <td>
+                                                            <a href="downloads.php?ap_file_id=4">Download</a>
+                             
+                                                            </td>
+
+
+                            <td>
+                            <a href="#editapp4" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> 
+                                            <!-- Edit shedule -->
+<div class="modal fade" id="edituser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>2</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="editusers.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>15</b><br />
+" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">User Type</label>
+                            <select class="custom-select" name="user_type" id="">
+                                <option value="" selected="">Select one</option>
+                                <option value="administrator">Administrator</option>
+                                <option value="counselar">Counselar</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Full Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>28</b><br />
+" type="text" name="full_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">User Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>33</b><br />
+" type="text" name="user_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Password:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>38</b><br />
+" type="password" name="password">
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Delete shedule -->
+<div class="modal fade" id="deleteuser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>58</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Delete User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center" style="color: #000;"><br>
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>70</b><br>
+</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <a href="delete_user.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>75</b><br />
+" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Application Model -->
+<div class="modal fade" id="editapp4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Application</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?application=4" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Course interested</label>
+                                <select class="custom-select" name="cource" id="">
+                                    <option value="0" selected="">Select Cource</option>
+                                    <option value="Physical Science">Physical Science</option>
+                                    <option value="Biological Science">Biological Science</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Applied</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload Application</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Documentaton Model -->
+<div class="modal fade" id="editdoc4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Documentation</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?document=4" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    O/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    A/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    IELTS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    Service Later
+                                </label>
+                            </div>
+                            <br> <br>
+                            <div class="form-group">
+                                <label for="">Documents</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Remarks</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Offer Model -->
+<div class="modal fade" id="editoffer4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Offer</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?offer=4" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Offer Received Date</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Semester</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Date</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload File</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Enquery Model -->
+<div class="modal fade" id="editenquery4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Enquery Form</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?enquery=4" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">Course interested</label>
+                            <select class="custom-select" required="" value="Physical Science" name="cource" id="">
+                                <option selected="">Select Cource</option>
+                                <option value="Physical Science">Physical Science</option>
+                                <option value="Biological Science">Biological Science</option>
+                                <option value="Engineering">Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Name</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Surname:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">NIC:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">E-mail:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Telephone:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Mobile:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Address:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">City:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Date Of Birth:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <select class="custom-select" required="" value="male" name="gender" id="">
+                                <option selected="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>                                
+                            </td>
+
+
+                        </tr><tr>
+                            <td>student4</td>
+                            <td>Dilitha Theekshana</td>
+                           
+                            <td>967876783v</td>
+                            <td>765678322</td>
+                            <td></td>
+                            <td>Physical Science</td>
+                            <td></td>
+                            <td>
+                            No file 
+                                                            </td>
+
+
+                            <td>
+                            <a href="#editapp7" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> 
+                                            <!-- Edit shedule -->
+<div class="modal fade" id="edituser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>2</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="editusers.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>15</b><br />
+" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">User Type</label>
+                            <select class="custom-select" name="user_type" id="">
+                                <option value="" selected="">Select one</option>
+                                <option value="administrator">Administrator</option>
+                                <option value="counselar">Counselar</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Full Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>28</b><br />
+" type="text" name="full_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">User Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>33</b><br />
+" type="text" name="user_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Password:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>38</b><br />
+" type="password" name="password">
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Delete shedule -->
+<div class="modal fade" id="deleteuser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>58</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Delete User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center" style="color: #000;"><br>
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>70</b><br>
+</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <a href="delete_user.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>75</b><br />
+" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Application Model -->
+<div class="modal fade" id="editapp7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Application</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?application=7" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Course interested</label>
+                                <select class="custom-select" name="cource" id="">
+                                    <option value="0" selected="">Select Cource</option>
+                                    <option value="Physical Science">Physical Science</option>
+                                    <option value="Biological Science">Biological Science</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Applied</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload Application</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Documentaton Model -->
+<div class="modal fade" id="editdoc7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Documentation</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?document=7" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    O/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    A/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    IELTS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    Service Later
+                                </label>
+                            </div>
+                            <br> <br>
+                            <div class="form-group">
+                                <label for="">Documents</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Remarks</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Offer Model -->
+<div class="modal fade" id="editoffer7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Offer</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?offer=7" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Offer Received Date</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Semester</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Date</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload File</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Enquery Model -->
+<div class="modal fade" id="editenquery7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Enquery Form</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?enquery=7" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">Course interested</label>
+                            <select class="custom-select" required="" value="Physical Science" name="cource" id="">
+                                <option selected="">Select Cource</option>
+                                <option value="Physical Science">Physical Science</option>
+                                <option value="Biological Science">Biological Science</option>
+                                <option value="Engineering">Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Name</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Surname:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">NIC:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">E-mail:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Telephone:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Mobile:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Address:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">City:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Date Of Birth:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <select class="custom-select" required="" value="male" name="gender" id="">
+                                <option selected="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>                                
+                            </td>
+
+
+                        </tr><tr>
+                            <td>student5</td>
+                            <td>Pabasara Kavindu</td>
+                           
+                            <td>9876545678v</td>
+                            <td>765434566</td>
+                            <td></td>
+                            <td>Physical Science</td>
+                            <td></td>
+                            <td>
+                            No file 
+                                                            </td>
+
+
+                            <td>
+                            <a href="#editapp8" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> 
+                                            <!-- Edit shedule -->
+<div class="modal fade" id="edituser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>2</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="editusers.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>15</b><br />
+" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">User Type</label>
+                            <select class="custom-select" name="user_type" id="">
+                                <option value="" selected="">Select one</option>
+                                <option value="administrator">Administrator</option>
+                                <option value="counselar">Counselar</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Full Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>28</b><br />
+" type="text" name="full_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">User Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>33</b><br />
+" type="text" name="user_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Password:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>38</b><br />
+" type="password" name="password">
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Delete shedule -->
+<div class="modal fade" id="deleteuser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>58</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Delete User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center" style="color: #000;"><br>
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>70</b><br>
+</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <a href="delete_user.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>75</b><br />
+" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Application Model -->
+<div class="modal fade" id="editapp8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Application</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?application=8" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Course interested</label>
+                                <select class="custom-select" name="cource" id="">
+                                    <option value="0" selected="">Select Cource</option>
+                                    <option value="Physical Science">Physical Science</option>
+                                    <option value="Biological Science">Biological Science</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Applied</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload Application</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Documentaton Model -->
+<div class="modal fade" id="editdoc8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Documentation</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?document=8" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    O/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    A/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    IELTS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    Service Later
+                                </label>
+                            </div>
+                            <br> <br>
+                            <div class="form-group">
+                                <label for="">Documents</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Remarks</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Offer Model -->
+<div class="modal fade" id="editoffer8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Offer</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?offer=8" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Offer Received Date</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Semester</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Date</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload File</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Enquery Model -->
+<div class="modal fade" id="editenquery8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Enquery Form</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?enquery=8" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">Course interested</label>
+                            <select class="custom-select" required="" value="Physical Science" name="cource" id="">
+                                <option selected="">Select Cource</option>
+                                <option value="Physical Science">Physical Science</option>
+                                <option value="Biological Science">Biological Science</option>
+                                <option value="Engineering">Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Name</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Surname:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">NIC:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">E-mail:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Telephone:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Mobile:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Address:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">City:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Date Of Birth:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <select class="custom-select" required="" value="male" name="gender" id="">
+                                <option selected="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>                                
+                            </td>
+
+
+                        </tr><tr>
+                            <td>student6</td>
+                            <td>Buddi Chanaka</td>
+                           
+                            <td>9765787666v</td>
+                            <td>32278987</td>
+                            <td></td>
+                            <td>Biological Science</td>
+                            <td></td>
+                            <td>
+                            No file 
+                                                            </td>
+
+
+                            <td>
+                            <a href="#editapp9" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> 
+                                            <!-- Edit shedule -->
+<div class="modal fade" id="edituser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>2</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="editusers.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>15</b><br />
+" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">User Type</label>
+                            <select class="custom-select" name="user_type" id="">
+                                <option value="" selected="">Select one</option>
+                                <option value="administrator">Administrator</option>
+                                <option value="counselar">Counselar</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Full Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>28</b><br />
+" type="text" name="full_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">User Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>33</b><br />
+" type="text" name="user_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Password:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>38</b><br />
+" type="password" name="password">
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Delete shedule -->
+<div class="modal fade" id="deleteuser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>58</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Delete User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center" style="color: #000;"><br>
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>70</b><br>
+</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <a href="delete_user.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>75</b><br />
+" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Application Model -->
+<div class="modal fade" id="editapp9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Application</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?application=9" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Course interested</label>
+                                <select class="custom-select" name="cource" id="">
+                                    <option value="0" selected="">Select Cource</option>
+                                    <option value="Physical Science">Physical Science</option>
+                                    <option value="Biological Science">Biological Science</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Applied</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload Application</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Documentaton Model -->
+<div class="modal fade" id="editdoc9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Documentation</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?document=9" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    O/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    A/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    IELTS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    Service Later
+                                </label>
+                            </div>
+                            <br> <br>
+                            <div class="form-group">
+                                <label for="">Documents</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Remarks</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Offer Model -->
+<div class="modal fade" id="editoffer9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Offer</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?offer=9" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Offer Received Date</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Semester</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Date</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload File</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Enquery Model -->
+<div class="modal fade" id="editenquery9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Enquery Form</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?enquery=9" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">Course interested</label>
+                            <select class="custom-select" required="" value="Biological Science" name="cource" id="">
+                                <option selected="">Select Cource</option>
+                                <option value="Physical Science">Physical Science</option>
+                                <option value="Biological Science">Biological Science</option>
+                                <option value="Engineering">Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Name</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Surname:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">NIC:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">E-mail:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Telephone:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Mobile:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Address:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">City:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Date Of Birth:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <select class="custom-select" required="" value="male" name="gender" id="">
+                                <option selected="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>                                
+                            </td>
+
+
+                        </tr><tr>
+                            <td>student7</td>
+                            <td>Chulana Madushan</td>
+                           
+                            <td>976543567v</td>
+                            <td>344488899</td>
+                            <td></td>
+                            <td>Physical Science</td>
+                            <td></td>
+                            <td>
+                            No file 
+                                                            </td>
+
+
+                            <td>
+                            <a href="#editapp10" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> 
+                                            <!-- Edit shedule -->
+<div class="modal fade" id="edituser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>2</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="editusers.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>15</b><br />
+" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">User Type</label>
+                            <select class="custom-select" name="user_type" id="">
+                                <option value="" selected="">Select one</option>
+                                <option value="administrator">Administrator</option>
+                                <option value="counselar">Counselar</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Full Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>28</b><br />
+" type="text" name="full_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">User Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>33</b><br />
+" type="text" name="user_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Password:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>38</b><br />
+" type="password" name="password">
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Delete shedule -->
+<div class="modal fade" id="deleteuser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>58</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Delete User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center" style="color: #000;"><br>
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>70</b><br>
+</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <a href="delete_user.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>75</b><br />
+" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Application Model -->
+<div class="modal fade" id="editapp10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Application</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?application=10" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Course interested</label>
+                                <select class="custom-select" name="cource" id="">
+                                    <option value="0" selected="">Select Cource</option>
+                                    <option value="Physical Science">Physical Science</option>
+                                    <option value="Biological Science">Biological Science</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Applied</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload Application</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Documentaton Model -->
+<div class="modal fade" id="editdoc10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Documentation</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?document=10" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    O/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    A/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    IELTS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    Service Later
+                                </label>
+                            </div>
+                            <br> <br>
+                            <div class="form-group">
+                                <label for="">Documents</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Remarks</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Offer Model -->
+<div class="modal fade" id="editoffer10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Offer</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?offer=10" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Offer Received Date</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Semester</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Date</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload File</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Enquery Model -->
+<div class="modal fade" id="editenquery10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Enquery Form</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?enquery=10" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">Course interested</label>
+                            <select class="custom-select" required="" value="Physical Science" name="cource" id="">
+                                <option selected="">Select Cource</option>
+                                <option value="Physical Science">Physical Science</option>
+                                <option value="Biological Science">Biological Science</option>
+                                <option value="Engineering">Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Name</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Surname:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">NIC:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">E-mail:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Telephone:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Mobile:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Address:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">City:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Date Of Birth:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <select class="custom-select" required="" value="male" name="gender" id="">
+                                <option selected="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>                                
+                            </td>
+
+
+                        </tr><tr>
+                            <td>student8</td>
+                            <td>Kasun Madhawa</td>
+                           
+                            <td>9567876533v</td>
+                            <td>765434566</td>
+                            <td></td>
+                            <td>Physical Science</td>
+                            <td></td>
+                            <td>
+                            No file 
+                                                            </td>
+
+
+                            <td>
+                            <a href="#editapp12" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> 
+                                            <!-- Edit shedule -->
+<div class="modal fade" id="edituser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>2</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="editusers.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>15</b><br />
+" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">User Type</label>
+                            <select class="custom-select" name="user_type" id="">
+                                <option value="" selected="">Select one</option>
+                                <option value="administrator">Administrator</option>
+                                <option value="counselar">Counselar</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Full Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>28</b><br />
+" type="text" name="full_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">User Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>33</b><br />
+" type="text" name="user_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Password:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>38</b><br />
+" type="password" name="password">
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Delete shedule -->
+<div class="modal fade" id="deleteuser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>58</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Delete User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center" style="color: #000;"><br>
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>70</b><br>
+</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <a href="delete_user.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>75</b><br />
+" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Application Model -->
+<div class="modal fade" id="editapp12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Application</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?application=12" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Course interested</label>
+                                <select class="custom-select" name="cource" id="">
+                                    <option value="0" selected="">Select Cource</option>
+                                    <option value="Physical Science">Physical Science</option>
+                                    <option value="Biological Science">Biological Science</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Applied</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload Application</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Documentaton Model -->
+<div class="modal fade" id="editdoc12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Documentation</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?document=12" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    O/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    A/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    IELTS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    Service Later
+                                </label>
+                            </div>
+                            <br> <br>
+                            <div class="form-group">
+                                <label for="">Documents</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Remarks</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Offer Model -->
+<div class="modal fade" id="editoffer12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Offer</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?offer=12" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Offer Received Date</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Semester</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Date</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload File</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Enquery Model -->
+<div class="modal fade" id="editenquery12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Enquery Form</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?enquery=12" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">Course interested</label>
+                            <select class="custom-select" required="" value="Physical Science" name="cource" id="">
+                                <option selected="">Select Cource</option>
+                                <option value="Physical Science">Physical Science</option>
+                                <option value="Biological Science">Biological Science</option>
+                                <option value="Engineering">Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Name</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Surname:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">NIC:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">E-mail:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Telephone:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Mobile:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Address:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">City:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Date Of Birth:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <select class="custom-select" required="" value="male" name="gender" id="">
+                                <option selected="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>                                
+                            </td>
+
+
+                        </tr><tr>
+                            <td>student9</td>
+                            <td>Gihan Madushan</td>
+                           
+                            <td>967876783v</td>
+                            <td>765679234</td>
+                            <td></td>
+                            <td>Select Cource</td>
+                            <td></td>
+                            <td>
+                            No file 
+                                                            </td>
+
+
+                            <td>
+                            <a href="#editapp13" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> 
+                                            <!-- Edit shedule -->
+<div class="modal fade" id="edituser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>2</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="editusers.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>15</b><br />
+" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">User Type</label>
+                            <select class="custom-select" name="user_type" id="">
+                                <option value="" selected="">Select one</option>
+                                <option value="administrator">Administrator</option>
+                                <option value="counselar">Counselar</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Full Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>28</b><br />
+" type="text" name="full_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">User Name:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>33</b><br />
+" type="text" name="user_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Password:</label>
+                            
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>38</b><br />
+" type="password" name="password">
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Delete shedule -->
+<div class="modal fade" id="deleteuser<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>58</b><br />
+" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Delete User</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center" style="color: #000;"><br>
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>70</b><br>
+</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <a href="delete_user.php?user=<br />
+<b>Notice</b>:  Undefined variable: row in <b>C:\xampp\htdocs\EMS\modal.php</b> on line <b>75</b><br />
+" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- Application Model -->
+<div class="modal fade" id="editapp13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Application</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?application=13" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Course interested</label>
+                                <select class="custom-select" name="cource" id="">
+                                    <option value="0" selected="">Select Cource</option>
+                                    <option value="Physical Science">Physical Science</option>
+                                    <option value="Biological Science">Biological Science</option>
+                                    <option value="Engineering">Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Date Applied</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload Application</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Documentaton Model -->
+<div class="modal fade" id="editdoc13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Documentation</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?document=13" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    O/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    A/L Certifications
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    IELTS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    
+                                    Service Later
+                                </label>
+                            </div>
+                            <br> <br>
+                            <div class="form-group">
+                                <label for="">Documents</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Remarks</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Offer Model -->
+<div class="modal fade" id="editoffer13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Offer</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?offer=13" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Offer Received Date</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Semester</label>
+                                
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Intake Date</label>
+                                
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Upload File</label>
+                                
+
+                            </div>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Enquery Model -->
+<div class="modal fade" id="editenquery13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: #000;">Edit Enquery Form</h4>
+                </center>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form method="POST" action="edituser.php?enquery=13" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="">Course interested</label>
+                            <select class="custom-select" required="" value="Select Cource" name="cource" id="">
+                                <option selected="">Select Cource</option>
+                                <option value="Physical Science">Physical Science</option>
+                                <option value="Biological Science">Biological Science</option>
+                                <option value="Engineering">Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Name</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Student Surname:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">NIC:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">E-mail:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Telephone:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Mobile:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Address:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">City:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Date Of Birth:</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <select class="custom-select" required="" value="male" name="gender" id="">
+                                <option selected="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                </form></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                <button type="submit" name="edituser" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Update</button>
+                
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>                                
+                            </td>
+
+
+                        </tr></table>

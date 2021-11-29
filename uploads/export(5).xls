@@ -1,0 +1,271 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head></head><body><table><tr><td></td></tr></table><table>
+                        <thead class=" text-primary">
+                            <tr>
+                                <th>Student Id</th>
+                                <th>Student Name</th>
+                                <th>NIC</th>
+                                <th>Email</th>
+                                <th>Mobile</th>
+                                <th>Inquiry</th>
+                                <th>Document received</th>
+                                <th>Application</th>
+                                <th>Offer Received</th>
+
+
+
+                            </tr>
+                        </thead>
+                        
+                        <tbody><tr>
+                            <td>student1</td>
+                            <td>Ridma Kanchana</td>
+
+                            <td>961771803v</td>
+                            <td>Ridma@gmail.com</td>
+                            <td>716309982</td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td></td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>student2</td>
+                            <td>Ashen Udithamal</td>
+
+                            <td>9567876533v</td>
+                            <td>ashen@gmail.com</td>
+                            <td>765679234</td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td></td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>student3</td>
+                            <td>Isuru Dulanjana</td>
+
+                            <td>965789876v</td>
+                            <td>isuru@gmail.com</td>
+                            <td>765679234</td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td></td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>student4</td>
+                            <td>Dilitha Theekshana</td>
+
+                            <td>967876783v</td>
+                            <td>dilitha@gmail.com</td>
+                            <td>765678322</td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td></td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>student5</td>
+                            <td>Pabasara Kavindu</td>
+
+                            <td>9876545678v</td>
+                            <td>pabasara@gmail.com</td>
+                            <td>765434566</td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td></td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>student6</td>
+                            <td>Buddi Chanaka</td>
+
+                            <td>9765787666v</td>
+                            <td>buddi@gmail.com</td>
+                            <td>32278987</td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td></td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>student7</td>
+                            <td>Chulana Madushan</td>
+
+                            <td>976543567v</td>
+                            <td>chulana@gmail.com</td>
+                            <td>344488899</td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td></td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>student8</td>
+                            <td>Kasun Madhawa</td>
+
+                            <td>9567876533v</td>
+                            <td>kasun@gmail.com</td>
+                            <td>765434566</td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td></td>
+
+                        </tr>
+
+                        
+                        <tr>
+                            <td>student9</td>
+                            <td>Gihan Madushan</td>
+
+                            <td>967876783v</td>
+                            <td>gihan@gmail.com</td>
+                            <td>765679234</td>
+                            <td>
+
+                                Completed
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td>
+
+                                Pending
+                            </td>
+                            <td></td>
+
+                        </tr>
+
+                                                </tbody><tbody> </tbody>
+                    </table></body></html>
